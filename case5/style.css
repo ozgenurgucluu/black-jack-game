@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.cardContainer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardContent {
+    width: 110px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-left:-30px;
+    background-color: white;
+}
+
+
+.pcCard1 {
+    margin-left: 400px;
+    width: 120px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid white;
+    float: left;
+
+}
+
+.pcCard2 {
+    width: 120px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid white;
+    float: left;
+    margin-left: 10px;
+
+}
+
+/*.pcCard3 {
+        width: 120px;
+        height: 150px;
+        background-color: pink;
+        border: 2px solid white;
+        float: left;
+        margin-left: 10px;
+
+    } */
+
+.bet {
+    float: left;
+    clear: left;
+}
+
+#betAmount {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    height: 40px;
+    margin-top: 90px;
+    width: 140px;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.remainderBetAmount {
+    display: block;
+
+}
+
+input {
+    margin-top: 10px;
+    height: 40px;
+    width: 135px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.crawCard {
+
+    margin-left: 1100px;
+    margin-top: -90px;
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-size: 15px;
+
+}
+
+.playersCards {
+     width: 90px;
+    height: 70px;
+
+
+
+}
+
+/* .playersCards2 {
+        width: 120px;
+        height: 150px;
+        background-color: pink;
+        border: 2px solid White;
+        float: left;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    .playersCards3 {
+        width: 120px;
+        height: 150px;
+        background-color: pink;
+        border: 2px solid White;
+        float: left;
+        margin-top: 100px;
+        margin-left: 10px;  
+    } */
+
+
+.lowerCard{
+    margin-top: 60px;
+}
+#pcCardStill {
+    text-align: center;
+    align-items: center;
+}
+
+#startButton {
+    margin-top: 10px;
+    height: 45px;
+    width: 142px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700 ;
+}
